@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+window.TestRails = Ember.Application.create()
+
+TestRails.Store = DS.Store.extend({
+
+})
